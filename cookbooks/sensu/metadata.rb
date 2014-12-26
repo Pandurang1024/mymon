@@ -10,10 +10,10 @@ version          "2.3.0"
 depends "apt"
 
 # available @ http://community.opscode.com/cookbooks/yum
-#depends "yum"
+depends "yum"
 
 # available @ http://community.opscode.com/cookbooks/windows
-#depends "windows", ">= 1.8.8"
+depends "windows", ">= 1.8.8"
 
 # available @ http://community.opscode.com/cookbooks/rabbitmq
 depends "rabbitmq", ">= 2.0.0"
